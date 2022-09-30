@@ -1,6 +1,6 @@
 {
     "customerHamburger": {
-        "hamburgerModel": [
+        "data": [
            {
             "id": "PRIMARY" ,
             "photo":"URL DA FOTO",

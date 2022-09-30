@@ -1,4 +1,4 @@
-
+const uuidv4 = require('uuid/v4');
 
 module.exports = app => {
     const customerHamburgerDB = app.data.customerHamburger;
@@ -12,10 +12,10 @@ module.exports = app => {
   
     controller.saveCustomerHamburger = (req, res) => {
         customerHamburgerMock.data.push({
-            id: req.body.id,
-            photo: req.body.photo,
-            description: req.body.description,
-            price: req.body.price,
+            id: uuidv4(),
+            photo: uuidv4(),
+            description: uuidv4(),
+            price: uuidv4(),
         });
         res.status(201).json(customerHamburgerMock);
     }
