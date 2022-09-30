@@ -1,0 +1,18 @@
+{
+    "customerHamburger": {
+        "hamburgerModel": [
+           {
+            "id": "PRIMARY" ,
+            "photo":"URL DA FOTO",
+            "description":"X-Bacon",
+            "price":"15"
+           },
+           {
+            "id": "SECONDARY" ,
+            "photo":"URL DA FOTO",
+            "description":"Especial",
+            "price":"30"
+           }
+        ]
+    }
+}
